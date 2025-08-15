@@ -46,7 +46,7 @@ This repository contains a shop recommendation system built with Python, leverag
 pip install -r requirements.txt
 ```
 2. Configure Environment Variables
-Add your MongoDB Atlas connection string and API keys to process/.env and website/.env. I had to create two connection for MongoDB Atlas because limit of free tier
+Add your MongoDB Atlas connection string and API keys to process/.env and website/.env. I had to create two connection for MongoDB Atlas because limit of free tier. One for common information and the other else for shopping recommendation
 3. Run the Streamlit App
 ```
 streamlit run website/website.py

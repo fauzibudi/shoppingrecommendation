@@ -23,20 +23,23 @@ This repository contains a shop recommendation system built with Python, leverag
 ```
 
 ## Main Components
-```
-data/: Contains datasets used for training and evaluation.
-process/: Jupyter notebooks for data processing, pipeline creation, and experimentation.
-common_info_retrivier.ipynb: RAG pipeline for general information retrieval.
-shop_recommendation.ipynb: Pipeline for shop/product recommendations.
-generator.ipynb, retriever.ipynb: LLM and retriever setup.
-website/: Streamlit web applications integrating Haystack pipelines for user interaction.
-requirements.txt: Python dependencies for the project.
-tf_env/: Python virtual environment (do not edit directly).
-```
+
+data/: Contains datasets used for training and evaluation. <br>
+process/: Jupyter notebooks for data processing, pipeline creation, and experimentation. <br>
+common_info_retrivier.ipynb: RAG pipeline for general information retrieval.<br>
+shop_recommendation.ipynb: Pipeline for shop/product recommendations.<br>
+generator.ipynb, retriever.ipynb: LLM and retriever setup.<br>
+website/: Streamlit web applications integrating Haystack pipelines for user interaction.<br>
+requirements.txt: Python dependencies for the project.<br>
+tf_env/: Python virtual environment (do not edit directly).<br>
+
 
 ## Features
 
-Shop/Product Recommendation: Uses RAG pipeline to recommend products based on user queries.\n
-General Information Retrieval: Answers general questions using a dedicated pipeline and MongoDB Atlas document store.\n
-Paraphrasing & Chat History: Includes paraphrasing and chat memory components for improved conversational experience.\n
-Streamlit Web Interface: User-friendly web app for interacting with the recommendation and information retrieval system.\n
+Shop/Product Recommendation: Uses RAG pipeline to recommend products based on user queries.<br>
+General Information Retrieval: Answers general questions using a dedicated pipeline and MongoDB Atlas document store.<br>
+Paraphrasing & Chat History: Includes paraphrasing and chat memory components for improved conversational experience.<br>
+Streamlit Web Interface: User-friendly web app for interacting with the recommendation and information retrieval system.<br>
+
+## Setup & Usage
+

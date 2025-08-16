@@ -410,7 +410,14 @@ if __name__ == "__main__":
 
     for message in st.session_state.chat_message_store.messages:
         with st.chat_message(message.role.value):
-            st.markdown(message.text)
+            # Clean and format the response text
+            formatted_text = message.text.strip()
+            # Remove excessive newlines and normalize spacing
+            formatted_text = re.sub(r'\n{3,}', '\n\n', formatted_text)
+            formatted_text = re.sub(r' +', ' ', formatted_text)
+            # Ensure proper line breaks for readability
+            formatted_text = formatted_text.replace('\n', '  \n')
+            st.markdown(formatted_text)
 
 
     if prompt:= st.chat_input("Hello, what can i help you today?"):

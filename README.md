@@ -1,5 +1,7 @@
 # Shop Recommendation System
 This repository contains a shop recommendation system built with Python, leveraging Haystack for RAG (Retrieval-Augmented Generation) pipelines, MongoDB Atlas for document storage, and Streamlit for the web interface.
+
+Demo video: https://drive.google.com/file/d/1TaHa2wBdgnrlU0WRHD4_cKqwZ7EOvSM3/view?usp=sharing
 ## Project Structure
 ```
 ├── Readme.md
